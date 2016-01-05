@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace TestXamarin2.Models
+namespace BaseXamarinMvvm.Models
 {
     public class Person
     {

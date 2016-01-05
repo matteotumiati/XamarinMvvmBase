@@ -1,14 +1,11 @@
-
 using System;
-using System.Drawing;
-
 using Foundation;
 using UIKit;
-using TestXamarin2.ViewModels;
+using BaseXamarinMvvm.ViewModels;
 using GalaSoft.MvvmLight.Helpers;
-using TestXamarin2.Models;
+using BaseXamarinMvvm.Models;
 
-namespace TestXamarin2.iOS
+namespace BaseXamarinMvvm.iOS
 {
     public partial class MainViewController : UIViewController
     {

@@ -9,7 +9,7 @@ using System;
 using System.CodeDom.Compiler;
 using UIKit;
 
-namespace TestXamarin2.iOS
+namespace BaseXamarinMvvm.iOS
 {
 	[Register ("MainViewController")]
 	partial class MainViewController

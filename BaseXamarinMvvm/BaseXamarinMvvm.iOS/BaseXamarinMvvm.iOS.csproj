@@ -6,9 +6,9 @@
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <ProjectGuid>{A5B7D886-2E2F-431D-AED3-62511278C3DE}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>TestXamarin2.iOS</RootNamespace>
+    <RootNamespace>BaseXamarinMvvm.iOS</RootNamespace>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
-    <AssemblyName>TestXamarin2iOS</AssemblyName>
+    <AssemblyName>BaseXamarinMvvmiOS</AssemblyName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
     <DebugSymbols>true</DebugSymbols>
@@ -156,6 +156,6 @@
       <DependentUpon>MainViewController.cs</DependentUpon>
     </Compile>
   </ItemGroup>
-  <Import Project="..\TestXamarin2\TestXamarin2.projitems" Label="Shared" />
+  <Import Project="..\BaseXamarinMvvm\BaseXamarinMvvm.projitems" Label="Shared" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

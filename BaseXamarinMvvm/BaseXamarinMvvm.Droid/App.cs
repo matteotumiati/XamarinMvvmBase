@@ -1,8 +1,8 @@
-using TestXamarin2.ViewModels;
+using BaseXamarinMvvm.ViewModels;
 using GalaSoft.MvvmLight.Ioc;
 using GalaSoft.MvvmLight.Views;
 
-namespace TestXamarin2.Droid
+namespace BaseXamarinMvvm.Droid
 {
     public static class App
     {

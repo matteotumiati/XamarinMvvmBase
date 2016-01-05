@@ -9,9 +9,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Android.Runtime.ResourceDesignerAttribute("TestXamarin2.Droid.Resource", IsApplication=true)]
+[assembly: global::Android.Runtime.ResourceDesignerAttribute("BaseXamarinMvvm.Droid.Resource", IsApplication=true)]
 
-namespace TestXamarin2.Droid
+namespace BaseXamarinMvvm.Droid
 {
 	
 	
@@ -26,8 +26,8 @@ namespace TestXamarin2.Droid
 		
 		public static void UpdateIdValues()
 		{
-			global::GalaSoft.MvvmLight.Resource.String.ApplicationName = global::TestXamarin2.Droid.Resource.String.ApplicationName;
-			global::GalaSoft.MvvmLight.Resource.String.Hello = global::TestXamarin2.Droid.Resource.String.Hello;
+			global::GalaSoft.MvvmLight.Resource.String.ApplicationName = global::BaseXamarinMvvm.Droid.Resource.String.ApplicationName;
+			global::GalaSoft.MvvmLight.Resource.String.Hello = global::BaseXamarinMvvm.Droid.Resource.String.Hello;
 		}
 		
 		public partial class Attribute

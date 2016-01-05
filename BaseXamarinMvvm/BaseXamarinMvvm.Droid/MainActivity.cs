@@ -1,15 +1,12 @@
 ﻿using Android.App;
 using Android.OS;
-using GalaSoft.MvvmLight.Views;
-using Microsoft.Practices.ServiceLocation;
-using GalaSoft.MvvmLight.Ioc;
 using Android.Widget;
 using Android.Views;
-using System;
 using GalaSoft.MvvmLight.Helpers;
-using TestXamarin2.Models;
+using BaseXamarinMvvm.Models;
+using BaseXamarinMvvm.Droid;
 
-namespace TestXamarin2.Droid
+namespace BaseXamarinMvvm.Droid
 {
     [Activity (Label = "TestXamarin2.Droid", MainLauncher = true, Icon = "@drawable/icon")]
 	public partial class MainActivity : AdapterView.IOnItemClickListener

@@ -1,11 +1,8 @@
 ﻿using GalaSoft.MvvmLight.Ioc;
 using Microsoft.Practices.ServiceLocation;
-using System;
-using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
-using System.Text;
 
-namespace TestXamarin2.ViewModels
+namespace BaseXamarinMvvm.ViewModels
 {
     public class ViewModelLocator
     {

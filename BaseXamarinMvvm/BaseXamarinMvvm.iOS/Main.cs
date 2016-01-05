@@ -1,14 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using UIKit;
+using BaseXamarinMvvm.ViewModels;
 
-using Foundation;
-using UIKit;
-using TestXamarin2.ViewModels;
-
-namespace TestXamarin2.iOS
+namespace BaseXamarinMvvm.iOS
 {
-	public class Application
+    public class Application
 	{
         private static ViewModelLocator _locator;
         public static ViewModelLocator Locator

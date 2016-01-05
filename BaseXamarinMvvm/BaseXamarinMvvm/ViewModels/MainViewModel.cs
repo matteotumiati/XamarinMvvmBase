@@ -2,13 +2,10 @@
 using GalaSoft.MvvmLight.Command;
 using GalaSoft.MvvmLight.Views;
 using Microsoft.Practices.ServiceLocation;
-using System;
-using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.Text;
-using TestXamarin2.Models;
+using BaseXamarinMvvm.Models;
 
-namespace TestXamarin2.ViewModels
+namespace BaseXamarinMvvm.ViewModels
 {
     public class MainViewModel : ViewModelBase
     {
